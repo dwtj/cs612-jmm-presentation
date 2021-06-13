@@ -1,0 +1,39 @@
+\documentclass{beamer}
+
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+
+\usepackage{enumitem}
+\setitemize{itemsep=1.5em}
+
+\usepackage{amsmath}
+
+\usepackage[
+    citestyle=alphabetic
+]{biblatex}
+\addbibresource{refs.bib}
+
+\usetheme{Warsaw}
+\usecolortheme{beaver}
+
+\title{The Data Race Free Guarantee of the Java Memory Model}
+\author{David Johnston \, dwtj@iastate.edu}
+\date[2018-12-04]
+
+% No navigation icons at the bottom:
+\beamertemplatenavigationsymbolsempty
+
+% No TOC at the top.
+\setbeamertemplate{headline}{}
+
+\begin{document}
+
+\include{0_notation}
+
+\include{1_front_matter}
+
+\include{2_body}
+
+\include{3_end_matter}
+
+\end{document}
